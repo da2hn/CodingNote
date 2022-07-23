@@ -9,7 +9,7 @@ public class B3052 {
 		HashSet<Integer> moreNum = new HashSet<>();
 		
 		for (int i = 0; i < 10; i++) {
-			moreNum.add(sc.nextInt() % 42);
+			moreNum.add(sc.nextInt() % 42); //입력받은 숫자를 42로 나눴을 때 나머지 값을 add한다.
 		}
 		
 		System.out.println(moreNum.size());
