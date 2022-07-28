@@ -2,7 +2,7 @@ package programous;
 
 import java.util.Scanner;
 
-public class Rotto {
+public class Lotto {
 	public int[] solution(int[] lottos, int[] win_nums) {
 	      int[] answer = new int[2];
 	      int max = 0;
